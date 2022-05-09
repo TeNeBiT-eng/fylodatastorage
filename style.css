@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    /* background-color:  hsl(228, 56%, 26%); */
+    background-image: url(/images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25vh 30vw;
+}
+
+.first_box{
+    /* width: 90%;
+    margin: 0 auto; */
+    background-color: hsl(228, 56%, 26%);
+    padding: 30px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.server_constituents{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.server_constituents div{
+    background-color: hsl(229, 57%, 11%);
+    width: 40%;
+}
