@@ -119,6 +119,7 @@ section{
     height: 3rem;
     width: 50%;
     transform: translateY(-34%);
+    border-radius: 10px;
     /* position: absolute; */
     /* text-align: center; */
     margin: 0 auto;
