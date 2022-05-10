@@ -130,6 +130,17 @@ section{
     /* text-align: center; */
 }
 
-@media (screen) {
-    
+@media (min-width: 768px) {
+    body{
+        background-image: url(/images/bg-desktop.png);
+         background-color:  hsl(229, 57%, 11%);
+         background-size: 100%  60%;
+         background-position-y: bottom;
+         background-repeat: no-repeat;
+    }
+    .mother_container{
+        overflow: visible;
+        display: flex;
+        justify-content: space-between;
+    }
 }
