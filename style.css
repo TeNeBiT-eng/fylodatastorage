@@ -54,16 +54,14 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    column-gap: 5px;
+    column-gap: 1rem;
 }
 
 .server_constituents div{
     background-color: hsl(229, 57%, 11%);
-    /* width: 40px; */
+    width: 100%;
     padding: 10px;
-    margin-inline: 20px;
+    /* margin-inline: 20px; */
     border-radius: 10px;
 }
-.document{
-    width: 18px;
-}
+
