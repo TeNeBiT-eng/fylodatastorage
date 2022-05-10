@@ -77,12 +77,22 @@ section{
 .second_box p{
     width: 80%;
     margin: 0 auto;
-    text-align: center;
-    font-size: 0.7rem;
-    padding: 20px;
+    /* text-align: center; */
+    font-size: 0.6rem;
+    /* padding: 20px; */
     color: white;
 }
 
 .loader1{
-
+    background-color: hsl(229, 57%, 11%);
+    height: 1rem;
+    border-radius: 10px;
+    margin-top: 11px;
+    position: relative;
+    /* z-index: ; */
+}
+.loader2{
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    position: relative;
+    z-index: 1;
 }
