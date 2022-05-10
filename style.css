@@ -81,6 +81,7 @@ section{
     font-size: 0.6rem;
     /* padding: 20px; */
     color: white;
+    position: relative;
 }
 
 .loader1{
@@ -111,4 +112,12 @@ section{
     display: flex;
     justify-content: space-between;
     margin-top: 0.6rem;
+}
+
+.gbRemaining{
+    background-color: white;
+    height: 3rem;
+    width: 100%;
+    position: absolute;
+    /* text-align: center; */
 }
