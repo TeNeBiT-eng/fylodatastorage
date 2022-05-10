@@ -105,7 +105,7 @@ section{
     border-radius: 50%;
     width: 7%;
     /* float: right; */
-    margin-left: 160px;
+    margin-left: 91%;
     transform: translateY(0.03rem);
 }
 .GB{
@@ -117,7 +117,11 @@ section{
 .gbRemaining{
     background-color: white;
     height: 3rem;
-    width: 100%;
+    width: 50%;
+    transform: translateY(-34%);
+    /* position: absolute; */
+    /* text-align: center; */
+    margin: 0 auto;
     /* position: absolute; */
     /* text-align: center; */
 }
