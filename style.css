@@ -143,5 +143,6 @@ section{
         display: flex;
         justify-content: space-between;
         column-gap: 30px;
+        transform: translate(-130%, -51%);
     }
 }
