@@ -70,10 +70,21 @@ section{
         margin: 0 auto; 
         background-color: hsl(228, 56%, 26%);
         padding: 30px;
-        padding-right: 100px;          
+        padding-right: 100px; 
+        margin-top: 20px;
+        border-radius: 10px;         
 }
 .second_box p{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    font-size: 0.7rem;
+    padding: 20px;
+    color: white;
+}
+.used{
+
+}
+.loader1{
+
 }
