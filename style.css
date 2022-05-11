@@ -131,10 +131,15 @@ section{
 }
 
 @media (min-width: 768px) {
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     body{
         background-image: url(/images/bg-desktop.png);
          background-color:  hsl(229, 57%, 11%);
-         background-size: 100%  60%;
+         background-size: 100%  52%;
          background-position-y: bottom;
          background-repeat: no-repeat;
     }
@@ -144,7 +149,11 @@ section{
         justify-content: space-between;
         column-gap: 30px;
         max-width: 1024px;
+        transform: translateX(15%);
         /* transform: translate(-21%, -14%);; */
+    }
+    .second_box{
+        width: 100%;
     }
     .second_box p{
         text-align: start;
@@ -152,5 +161,11 @@ section{
     .gbRemaining{
         position: relative;
         right: 25%;
+    }
+    .server_constituents div{
+        padding: 1.4rem;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.7rem;;
     }
 }
