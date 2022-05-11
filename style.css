@@ -143,6 +143,7 @@ section{
         display: flex;
         justify-content: space-between;
         column-gap: 30px;
-        transform: translate(-130%, -51%);
+        max-width: 1024px;
+        /* transform: translate(-21%, -14%);; */
     }
 }
