@@ -149,4 +149,8 @@ section{
     .second_box p{
         text-align: start;
     }
+    .gbRemaining{
+        position: relative;
+        right: 25%;
+    }
 }
