@@ -146,4 +146,7 @@ section{
         max-width: 1024px;
         /* transform: translate(-21%, -14%);; */
     }
+    .second_box p{
+        text-align: start;
+    }
 }
